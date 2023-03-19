@@ -7,7 +7,7 @@
  *
  * Return: 0 (success)
  */
-int main(vioid)
+int main(void)
 {	int n;
 
 	srand(time(0));
@@ -17,7 +17,7 @@ int main(vioid)
 		printf("Last digit of %i is %i and is greater than 5", n);
 	else if (num == 0)
 		printf("Last digitof %i is %i and is 0", n);
-	else if (num < 6 && num !=0)
+	else if (num < 6 && num != 0)
 		printf("Last digit of n is %i is %i and is less than 6 and not 0\n", n);
 	return (0);
 }
