@@ -2,7 +2,7 @@
 	.text
 	.section	.rodata
 .LC0:
-	.string	" %d is positive\n"
+	.string	"%d is positive\n"
 .LC1:
 	.string	"%d is zero\n"
 .LC2:
