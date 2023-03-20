@@ -9,7 +9,7 @@
 	.string	"Last digit of %d is %d and is greater than 5\n"
 	.align 8
 .LC2:
-	.string	"Last digit of %d is %d and is less than 6 and is not 0\n"
+	.string	"Last digit of %d is %d and is less than 6 and not 0\n"
 	.text
 	.globl	main
 	.type	main, @function
