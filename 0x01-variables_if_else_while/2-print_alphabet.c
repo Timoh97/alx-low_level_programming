@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int small;
-
-	for (small = 97; small < 123; small++)
+	int alphabet;
+/* Use ASCII TABLE to read alphabet values */
+	for (alphabet = 97; alphabet <= 122; alphabet++)
 	{
-		putchar(small);
+		putchar(alphabet);
 	}
 	putchar(10);
 	return (0);
