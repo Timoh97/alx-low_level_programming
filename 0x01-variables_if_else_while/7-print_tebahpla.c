@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int n;
+	int lower;
 
-	for (n = 122; n > 96; n--)
+	for (lower < 123; lower > 96; lower--)
 	{
-		putchar(n);
+		putchar(lower);
 	}
 	putchar(10);
 	return (0);
