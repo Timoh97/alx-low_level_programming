@@ -9,7 +9,7 @@ int main(void)
 {
 	int lower;
 
-	for (lower < 123; lower > 96; lower--)
+	for (lower = 122; lower > 96; lower--)
 	{
 		putchar(lower);
 	}

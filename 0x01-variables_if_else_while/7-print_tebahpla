@@ -12,6 +12,7 @@ main:
 	movq	%rsp, %rbp
 	.cfi_def_cfa_register 6
 	subq	$16, %rsp
+	movl	$122, -4(%rbp)
 	jmp	.L2
 .L3:
 	movl	-4(%rbp), %eax
