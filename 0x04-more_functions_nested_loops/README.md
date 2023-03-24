@@ -9,6 +9,8 @@ Collaboration is multiplication: Write a function that multiplies two integers.
 8-print_square.c :  a function that prints a square, followed by a new line
 9-fizz_buzz.c : FizzBuzz
 10-print_triangle.c : a function that prints a triangle, followed by a new line
+100-prime_factor.c:distinguishing prime numbers from composite numbers
+101-print_number.c :Write a function that prints an integer
 
 
 
