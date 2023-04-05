@@ -22,8 +22,8 @@ char *_strstr(char *haystack, char *needle)
 		{
 			if (*p == *m)
 			{
-				m = m + 1;
-				p = p + 1;
+				m++;
+				p++;
 			}
 			else
 				break;
