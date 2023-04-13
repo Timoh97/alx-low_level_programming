@@ -19,7 +19,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s1 == NULL)
 		s1 = "";
 
-	else if (s2 == NULL)
+	if (s2 == NULL)
 		s2 = "";
 
 	for (index = 0; s1[index]; index++)
