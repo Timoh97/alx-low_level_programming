@@ -38,7 +38,7 @@ int m = 0;
 		}
 		while (m <= width)
 		{
-				k[l][m] = 0;
+			k[l][m] = 0;
 			m++;
 		}
 	}
