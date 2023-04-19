@@ -36,9 +36,9 @@ int m = 0;
 			free(k);
 			return (NULL);
 		}
-			while (m <= width)
+		while (m <= width)
 		{
-			s[r][c] = 0;
+				k[l][m] = 0;
 			m++;
 		}
 	}
