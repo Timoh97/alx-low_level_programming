@@ -25,7 +25,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-				while (l < k)
+	while (l < k)
 	{
 		array[l] = stray[l];
 		l++;
