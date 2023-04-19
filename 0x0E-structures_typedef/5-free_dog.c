@@ -7,7 +7,7 @@
  *
  * Return: void
  */
-void free_dog(dog_tim *dg)
+void free_dog(dog_t *dg)
 {
 	if (dg)
 	{
