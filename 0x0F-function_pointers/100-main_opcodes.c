@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 
 	arr = (char *)main;
 
-		while (i < bytes)
+	while (i < bytes)
 	{
 		i++;
 
